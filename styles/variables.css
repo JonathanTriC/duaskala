@@ -1,0 +1,17 @@
+:root {
+  --brand-50: #f0f4ff;
+  --brand-100: #dde7ff;
+  --brand-500: #4f6ef7;
+  --brand-900: #1a2a6c;
+  --surface: #fafafa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --brand-50: #1a2a6c;
+    --brand-100: #2d3e8a;
+    --brand-500: #7b96f8;
+    --brand-900: #dde7ff;
+    --surface: #0f0f0f;
+  }
+}

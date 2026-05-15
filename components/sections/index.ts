@@ -1,0 +1,6 @@
+export * from './Hero'
+export * from './TheStudio'
+export * from './OurService'
+export * from './SelectedProjects'
+export * from './Contacts'
+export * from './Footer'
