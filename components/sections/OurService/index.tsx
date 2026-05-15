@@ -90,14 +90,18 @@ export function OurService() {
         </h1>
 
         {/* Line 2 */}
-        <div ref={line2Ref} className="mx-6 mt-12 w-full sm:mx-8 md:mx-4 lg:mx-0">
+        <div
+          ref={line2Ref}
+          className="mx-6 mt-12 w-full sm:mx-8 md:mx-4 lg:mx-0"
+        >
           <div className="-mb-0.5 h-4 w-1/3 rounded-tl-3xl rounded-tr-3xl bg-neutral-600 md:h-6 md:w-64 lg:w-91.75" />
           <div
             onClick={() => handleToggle(0)}
             className={`cursor-pointer rounded-tr-3xl ${active === 0 ? '' : 'rounded-b-3xl'} bg-neutral-600 p-4 transition-all duration-500 active:scale-[0.99] md:p-8 lg:p-12.5`}
           >
             <h1 className="font-antonio hover:text-accent-300 flex flex-wrap items-center gap-2 text-[40px] font-bold text-white sm:text-[48px] md:text-[64px] lg:text-[128px]">
-              WEBSITE (
+              WEBSITE
+              {/* (
               <Image
                 src="/icons/website.svg"
                 alt=""
@@ -105,7 +109,7 @@ export function OurService() {
                 height={120}
                 className="h-10 w-10 transition-all md:h-20 md:w-20 lg:h-30 lg:w-30"
               />
-              )
+              ) */}
               <FontAwesomeIcon
                 icon={faSortDown}
                 className={`${active === 0 ? 'rotate-180' : ''} text-4xl transition-all duration-500`}
@@ -134,7 +138,10 @@ export function OurService() {
         </div>
 
         {/* Line 3 */}
-        <div ref={line3Ref} className="mx-6 -mt-12 w-full sm:mx-8 md:mx-4 lg:mx-0">
+        <div
+          ref={line3Ref}
+          className="mx-6 -mt-12 w-full sm:mx-8 md:mx-4 lg:mx-0"
+        >
           <div className="bg-accent-200 -mb-0.5 ml-auto h-4 w-1/3 rounded-tl-3xl rounded-tr-3xl md:h-6 md:w-64 lg:w-91.75" />
           <div
             onClick={() => handleToggle(1)}
@@ -145,7 +152,7 @@ export function OurService() {
                 icon={faSortDown}
                 className={`${active === 1 ? 'rotate-180' : ''} text-4xl transition-all duration-500`}
               />{' '}
-              (
+              {/* (
               <Image
                 src="/icons/software.svg"
                 alt=""
@@ -153,7 +160,8 @@ export function OurService() {
                 height={120}
                 className="h-10 w-10 transition-all md:h-20 md:w-20 lg:h-30 lg:w-30"
               />
-              ) MOBILE APPS
+              )  */}
+              MOBILE APPS
             </h1>
           </div>
           {/* Line 3 Content */}
@@ -177,14 +185,18 @@ export function OurService() {
         </div>
 
         {/* Line 4 */}
-        <div ref={line4Ref} className="mx-6 -mt-12 w-full sm:mx-8 md:mx-4 lg:mx-0">
+        <div
+          ref={line4Ref}
+          className="mx-6 -mt-12 w-full sm:mx-8 md:mx-4 lg:mx-0"
+        >
           <div className="-mb-0.5 h-4 w-1/3 rounded-tl-3xl rounded-tr-3xl bg-neutral-600 md:h-6 md:w-64 lg:w-91.75" />
           <div
             onClick={() => handleToggle(2)}
             className={`cursor-pointer rounded-tr-3xl ${active === 2 ? '' : 'rounded-b-3xl'} bg-neutral-600 p-4 transition-all duration-500 active:scale-[0.99] md:p-8 lg:p-12.5`}
           >
-            <h1 className="font-antonio hover:text-accent-300 inline-flex items-center gap-2 text-[40px] font-bold text-white sm:text-[48px] md:text-[64px] lg:text-[128px]">
-              UIUX DESIGN (
+            <h1 className="font-antonio hover:text-accent-300 inline-flex w-full items-center gap-2 text-[40px] font-bold text-white sm:text-[48px] md:text-[64px] lg:text-[128px]">
+              UIUX DESIGN
+              {/* (
               <Image
                 src="/icons/uiux.svg"
                 alt=""
@@ -192,7 +204,7 @@ export function OurService() {
                 height={120}
                 className="h-10 w-10 transition-all md:h-20 md:w-20 lg:h-30 lg:w-30"
               />
-              ){' '}
+              ) */}{' '}
               <FontAwesomeIcon
                 icon={faSortDown}
                 className={`${active === 2 ? 'rotate-180' : ''} text-4xl transition-all duration-500`}
